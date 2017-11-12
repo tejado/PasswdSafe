@@ -1,12 +1,10 @@
 ^build/
 ^chrome/.*\.zip$
-^chrome/com.jefftharris.passwdsafe.android/vendor/chromium/crx/PasswdSafe.apk$
 ^lib/build/
 ^lib-onedrive/authenticate/build/
 ^lib-onedrive/build/
 ^lib-onedrive/onedriveaccess/build/
 ^lib-owncloud/build/
-^lib-play/build/
 ^local.properties$
 ^passwdsafe/\.externalNativeBuild/
 ^passwdsafe/build/
