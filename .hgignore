@@ -11,5 +11,6 @@
 ^sync/build/
 ^\.gradle/
 ^\.idea/workspace.xml$
+^\.idea/caches/
 ^\.idea/libraries/
 ^.*\.iml$
