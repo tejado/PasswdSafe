@@ -1,9 +1,6 @@
 ^build/
 ^chrome/.*\.zip$
 ^lib/build/
-^lib-onedrive/authenticate/build/
-^lib-onedrive/build/
-^lib-onedrive/onedriveaccess/build/
 ^lib-owncloud/build/
 ^local.properties$
 ^passwdsafe/\.externalNativeBuild/
