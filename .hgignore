@@ -3,7 +3,7 @@
 ^lib/build/
 ^lib-owncloud/build/
 ^local.properties$
-^passwdsafe/\.externalNativeBuild/
+^passwdsafe/\.cxx/
 ^passwdsafe/build/
 ^sync/build/
 ^\.gradle/
