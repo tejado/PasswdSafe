@@ -3243,6 +3243,7 @@
   Class descriptor  : 'Lcom/jefftharris/passwdsafe/StorageFileListAdapter;'
   Class descriptor  : 'Lcom/jefftharris/passwdsafe/StorageFileListFragment;'
   Class descriptor  : 'Lcom/jefftharris/passwdsafe/StorageFileListFragment$1;'
+  Class descriptor  : 'Lcom/jefftharris/passwdsafe/StorageFileListFragment$2;'
   Class descriptor  : 'Lcom/jefftharris/passwdsafe/StorageFileListFragment$FileLoader;'
   Class descriptor  : 'Lcom/jefftharris/passwdsafe/StorageFileListFragment$Listener;'
   Class descriptor  : 'Lcom/jefftharris/passwdsafe/StorageFileListHolder;'
