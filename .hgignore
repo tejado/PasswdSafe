@@ -8,6 +8,7 @@
 ^sync/build/
 ^\.gradle/
 ^\.idea/assetWizardSettings\.xml$
+^\.idea/deploymentTargetDropDown\.xml$
 ^\.idea/workspace.xml$
 ^\.idea/caches/
 ^\.idea/libraries/
