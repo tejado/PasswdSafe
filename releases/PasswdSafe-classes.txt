@@ -4357,6 +4357,7 @@
   Class descriptor  : 'Lcom/jefftharris/passwdsafe/lib/ApiCompatN;'
   Class descriptor  : 'Lcom/jefftharris/passwdsafe/lib/ApiCompatP;'
   Class descriptor  : 'Lcom/jefftharris/passwdsafe/lib/ApiCompatQ;'
+  Class descriptor  : 'Lcom/jefftharris/passwdsafe/lib/ApiCompatS;'
   Class descriptor  : 'Lcom/jefftharris/passwdsafe/lib/BuildConfig;'
   Class descriptor  : 'Lcom/jefftharris/passwdsafe/lib/DocumentsContractCompat;'
   Class descriptor  : 'Lcom/jefftharris/passwdsafe/lib/DynamicPermissionMgr;'
