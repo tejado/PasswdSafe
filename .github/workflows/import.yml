@@ -8,6 +8,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+        with:
+          path: PasswdSafe
       
       - uses: actions/setup-python@v4
         with:
@@ -27,4 +29,8 @@ jobs:
           pwd
           ls -lah
           ls -lah *
-          fast-export/hg-fast-export.sh -r http://hg.code.sf.net/p/passwdsafe/code
+          hg clone http://hg.code.sf.net/p/passwdsafe/code passwdsafe-code
+          cd PasswdSafe
+          ../fast-export/hg-fast-export.sh -r ../passwdsafe-code
+          ls -lah
+          ls -lah *
