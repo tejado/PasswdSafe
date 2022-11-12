@@ -36,3 +36,5 @@ jobs:
           git status
           ls -lah
           ls -lah *
+          git remote -v
+          git push origin master
