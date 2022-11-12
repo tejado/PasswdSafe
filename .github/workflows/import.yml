@@ -14,27 +14,18 @@ jobs:
       - uses: actions/setup-python@v4
         with:
           python-version: '3.10' 
-          
-      - run: pip install mercurial
-      
-      - run: git clone --depth 1 --branch v221024 https://github.com/frej/fast-export.git
 
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
-
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
+      - name: Import mercurial repository
         env:
             PYTHON: python3
         run: |
+          pip install mercurial
+          git clone --depth 1 --branch v221024 https://github.com/frej/fast-export.git
           hg clone http://hg.code.sf.net/p/passwdsafe/code passwdsafe-code
           cd PasswdSafe
           ../fast-export/hg-fast-export.sh -r ../passwdsafe-code --force
           git checkout -f master
           git log
           git status
-          ls -lah
-          ls -lah *
           git remote -v
           git push origin master
