@@ -34,6 +34,6 @@ jobs:
           hg clone http://hg.code.sf.net/p/passwdsafe/code passwdsafe-code
           cd PasswdSafe
           ../fast-export/hg-fast-export.sh -r ../passwdsafe-code --force
-          git checkout -f default
+          git checkout -f master
           ls -lah
           ls -lah *
