@@ -28,12 +28,11 @@ jobs:
         env:
             PYTHON: python3
         run: |
-          pwd
-          ls -lah
-          ls -lah *
           hg clone http://hg.code.sf.net/p/passwdsafe/code passwdsafe-code
           cd PasswdSafe
           ../fast-export/hg-fast-export.sh -r ../passwdsafe-code --force
           git checkout -f master
+          git log
+          git status
           ls -lah
           ls -lah *
