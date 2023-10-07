@@ -6,6 +6,7 @@
 ^notes\.md$
 ^passwdsafe/\.cxx/
 ^passwdsafe/build/
+^secrets\.properties$
 ^sync/build/
 ^\.gradle/
 ^\.idea/androidTestResultsUserPreferences\.xml$

@@ -8,13 +8,14 @@
 package com.jefftharris.passwdsafe.sync.onedrive;
 
 
+import com.jefftharris.passwdsafe.sync.BuildConfig;
+
 /**
  * Constants for accessing OneDrive
  */
 public class Constants
 {
-    public static final String CLIENT_ID =
-            "0411d3ff-3747-43cf-9e3d-9f194a84a6c0";
+    public static final String CLIENT_ID = BuildConfig.ONEDRIVE_CLIENT_ID;
 
     public static final String[] SCOPES =
             { "Files.ReadWrite", "User.Read" };
