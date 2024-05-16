@@ -12,6 +12,7 @@
 ^\.idea/androidTestResultsUserPreferences\.xml$
 ^\.idea/assetWizardSettings\.xml$
 ^\.idea/deploymentTargetDropDown\.xml$
+^\.idea/deploymentTargetSelector\.xml$
 ^\.idea/workspace.xml$
 ^\.idea/caches/
 ^\.idea/libraries/
