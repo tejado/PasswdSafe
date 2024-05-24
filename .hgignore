@@ -1,7 +1,6 @@
 ^build/
 ^chrome/.*\.zip$
 ^lib/build/
-^lib-owncloud/build/
 ^local.properties$
 ^notes\.md$
 ^passwdsafe/\.cxx/
